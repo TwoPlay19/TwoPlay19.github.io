@@ -170,7 +170,7 @@ body {
 }
 
 .contact__form-submit:hover {
-    background-color: #0058C4
+    background-color: #004394
 }
 
 .contact__card {
@@ -358,7 +358,7 @@ body {
 }
 
 .page-footer__gotop:hover {
-    background-color: #0058C4
+    background-color: #004394
 }
 
 .page-footer__gotop:before {
@@ -419,7 +419,7 @@ body {
 }
 
 .portfolio__filter-btn:hover, .portfolio__filter-btn.is-selected {
-    background-color: #0058C4
+    background-color: #004394
 }
 
 .portfolio__content {
@@ -552,7 +552,7 @@ body {
 }
 
 .promo__btn:hover {
-    background-color: #0058C4
+    background-color: #004394
 }
 
 .promo__go-next {
@@ -590,7 +590,7 @@ body {
     width: 100%;
     min-height: 645px;
     padding-top: 55px;
-    background-color: #16a086;
+    background-color: #2E89EB;
     text-align: center
 }
 
@@ -665,7 +665,7 @@ body {
     top: 95px;
     left: 50%;
     margin-left: -90px;
-    background-color: #16a086;
+    background-color: #2E89EB;
     background-color: rgba(22, 160, 134, .8);
     white-space: nowrap;
     overflow: hidden;
