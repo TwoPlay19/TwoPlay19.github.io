@@ -884,3 +884,23 @@ body {
         display: block
     }
 }
+
+/* OWN -----------!!!!!!!!!!!!*/
+
+.description-body {
+    position: relative
+}
+
+#file .file-description .description-body {
+    display: block;
+    margin-bottom: 15px;
+    overflow: hidden
+}
+
+.description-collapsed {
+    max-height: 350px
+}
+
+.description-full {
+    max-height: auto
+}
