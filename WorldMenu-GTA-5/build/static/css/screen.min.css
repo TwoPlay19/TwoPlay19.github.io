@@ -500,7 +500,7 @@ body {
     width: 100%;
     min-height: 455px;
     padding: 70px 0;
-    background: #323232 url("http://www.schrankmonster.de/wp-content/uploads/2015/05/6.jpg") center 0 no-repeat;
+    background: #323232 url(../images/promo-bg.jpg) center 0 no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
