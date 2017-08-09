@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="static/css/screen.min.css">
   <link rel="stylesheet" href="static/css/custom.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body>
@@ -38,16 +40,48 @@
 
 
   <section class="portfolio js-portfolio" id="log">
-    <div class="panel panel-default" style="margin-top: 8px">
-      <div class="panel-body">
-        <div class="file-description">
+<center>
+  <h1>Future</h1>
+    <div class="panel panel-default-orange" style="margin-top: 8px">
           <span class="description-body " dir="auto" style="padding-bottom: 0px;">
             <!--Description text field-->
+              <h2>Version 4.0</h2>
             "Test Text!!!!"
+
           </span>
+    </div>
+
+    <br/><br/>
+
+<h1>Current</h1>
+    <div class="panel panel-default-green" style="margin-top: 8px">
+          <span class="description-body " dir="auto" style="padding-bottom: 0px;">
+            <!--Description text field-->
+              <h2>Version 4.0</h2>
+            "Test Text!!!!"
+
+          </span>
+    </div>
+<br/>
+<br/>
+
+    <div>
+      <input class="promo__btn" type="button" onclick="showSpoiler(this);" value="Show / Hide" />
+      <div class="inner" style="display:none;">
+<h1 class="animated fadeInUp">Older Versions</h1>
+        <div class="panel panel-default animated fadeInUp" style="margin-top: 8px">
+              <span class="description-body " dir="auto" style="padding-bottom: 0px;">
+                <!--Description text field-->
+                  <h2>Version 4.0</h2>
+                "Test Text!!!!"
+              </span>
         </div>
       </div>
     </div>
 
+</center>
       </section>
 </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="static/js/body.min.js"></script>
+</html>

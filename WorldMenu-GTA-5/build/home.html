@@ -33,7 +33,7 @@
     </header><!-- $Promo section-->
     <section class="promo js-jumbo" id="home">
       <h2 class="promo__title">World<span>MENU</span></h2><p class="promo__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-      <a class="promo__btn" href="#">Learn more</a>
+      <a class="promo__btn" href="/changelog.html">Changelog</a>
       <a class="promo__go-next js-anchor" href="#portfolio">Scroll down</a>
     </section><!-- $Portfolio section-->
     <section class="portfolio js-portfolio" id="portfolio">
@@ -115,9 +115,26 @@
                   <span class="portfolio__item-title">Example title</span>
                   <span class="portfolio__item-cat">Web design</span>
                 </div>
-              </a></li>
-            </ul>
-          </div>
+              </a>
+            </li>
+
+            <div>
+            	<input class="promo__btn" type="button" onclick="showSpoiler(this);" value="Show / Hide" />
+            	<div class="inner" style="display:none;">
+                <li class="portfolio__item js-item" data-cat="all web">
+                  <a href="#">
+                    <img class="portfolio__item-img js-lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/2000px-Flag_of_the_Netherlands.svg.png" alt="">
+                    <div class="portfolio__item-caption">
+                      <span class="portfolio__item-title">Example title</span>
+                      <span class="portfolio__item-cat">Web design</span>
+                    </div>
+                  </a>
+                </li>
+            	</div>
+            </div>
+
+          </ul>
+        </div>
         </section><!-- $Team section-->
         <section class="team" id="team">
           <div class="team__inner">
