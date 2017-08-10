@@ -924,6 +924,7 @@ appearance: none;
 
 
 .panel-default {
+  margin: auto;
   border-style: solid;
   border-width: 5px;
     padding: 8px;
@@ -940,7 +941,7 @@ appearance: none;
 }
 
 .panel-default-green {
-  transform: all 1s fadeOut;
+    margin: auto;
   border-style: solid;
   border-width: 5px;
     padding: 8px;
@@ -948,13 +949,34 @@ appearance: none;
     background-color: #f5f5f5;
     border-color: #51D300
 }
+.current{
+  color: #51D300
+}
+
 .panel-default-orange {
+  margin: auto;
   border-style: solid;
   border-width: 5px;
     padding: 8px;
     width:90%;
     background-color: #f5f5f5;
     border-color: #FA9E00
+}
+.future{
+  color: #FA9E00
+}
+
+.panel-default-red{
+  margin: auto;
+  border-style: solid;
+  border-width: 5px;
+    padding: 8px;
+    width:90%;
+    background-color: #f5f5f5;
+    border-color: #de0000
+}
+.bugs{
+  color: #de0000
 }
 /*spoiler*/
 
