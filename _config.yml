@@ -1,6 +1,5 @@
 plugins:
   - jekyll-seo-tag
 
-title=World Menu for GTA 5
 description=Test
 url=https://twoplay19.github.io/WorldMenu-GTA-5/build/home.html
