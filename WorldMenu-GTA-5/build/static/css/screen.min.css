@@ -734,11 +734,11 @@ appearance: none;
 }
 
 .team__member-icon.gplus:before {
-    content: "\f0d5"
+    content: "\f16d"
 }
 
 .team__member-icon.db:before {
-    content: "\f17d"
+    content: "\f1e8"
 }
 
 @media screen and (max-width:1000px) {
