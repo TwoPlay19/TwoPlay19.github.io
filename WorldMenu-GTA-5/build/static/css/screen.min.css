@@ -284,6 +284,16 @@ appearance: none;
     background: url("../images/Logo.png") 0 center no-repeat
 }
 
+.page-header__paypal {
+    float: left;
+
+    height: 80px;
+    width: 200px
+    margin: 25px 0 0 40px;
+    padding: 15px 0 0 30px;
+
+}
+
 .page-header__logo h1 {
     font-size: 20px;
     font-weight: 700;
