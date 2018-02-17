@@ -285,8 +285,7 @@ appearance: none;
 }
 
 .page-header__paypal {
-    float: left;
-
+  
     height: 80px;
     width: 200px
     margin: 25px 0 0 40px;
