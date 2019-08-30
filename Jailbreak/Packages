@@ -33,12 +33,12 @@ Maintainer: TwoPlay <twoplay19@gmail.com>
 Depends: firmware (>7.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/com.twoplay.ios6theme.deb
-Size: 761826 
+Size: 761826
 MD5sum: 310135b76919462d5ff4a167da6ae60c
 Description: This is a ios6 theme.
 Name: iOS 6 Theme
 Author: TwoPlay <twoplay19@gmail.com>
-Depiction: https://twoplay19.github.io/depictions/?p=com.twoplay.ios6theme
+Depiction: https://twoplay19.github.io/Jailbreak/depictions/?p=com.twoplay.ios6theme
 
 Package: com.TwoPlay.PENRechner
 Version: 1
@@ -47,7 +47,7 @@ Maintainer: TwoPlay <twoplay19@gmail.com>
 Depends: firmware (>7.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/com.TwoPlay.PENRechner.deb
-Size: 10130490 
+Size: 10130490
 MD5sum: d773b22f02a34d522ea6b317b940c801
 Description: Penis App.
 Name: PENRechner
