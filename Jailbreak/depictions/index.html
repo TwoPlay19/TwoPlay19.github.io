@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+  <!-- Ads option-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-7570158992267222",
+      enable_page_level_ads: true
+    });
+  </script>
+
+
   <title>/supermamon/</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -123,7 +135,7 @@
                             i.attr("class",$(data).find('iconclass').text());
                             console.log(i);
                             $(a).append(i);
-                        } 
+                        }
                         $(a).append($(data).find('name').text());
                         $(element).append(a);
                     }); //each
@@ -152,6 +164,8 @@
     }); // ready
   </script>
 </head>
+
+
 <body>
 <br />
 
@@ -213,7 +227,7 @@
    }
 
     var repoContents =  {
-        "#repoFooterLinks" : 
+        "#repoFooterLinks" :
             {"type":"custom"
                 ,"source":"repo>footerlinks>link"
                 ,"render":function(element,source) {
@@ -225,7 +239,7 @@
                             i.attr("class",$(data).find('iconclass').text());
                             console.log(i);
                             $(a).append(i);
-                        } 
+                        }
                         $(a).append($(data).find('name').text());
                         $(element).append(a);
                     }); //each
