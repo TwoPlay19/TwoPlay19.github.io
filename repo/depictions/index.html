@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-  <!-- Ads option-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-7570158992267222",
-      enable_page_level_ads: true
-    });
-  </script>
-
-
-  <title>/supermamon/</title>
+  <title>PackageName</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,7 +11,6 @@
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
   <script type="text/javascript" src="js/data-loader-engine.js"></script>
   <script type="text/javascript" src="js/ios_version_check.js"></script>
-  <script type="text/javascript" src="js/touch.js"></script>
   <style>
 	@media (max-width: 767px) {
 		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
@@ -50,6 +37,8 @@
 			}
 		,"#packageVersion" :
 			{"type":"text","source":"package>version"}
+		,"#packageShortDesc" : 
+			{"type":"text","source":"package>shortDescription"}
 		,"#compatibilityCheck" :
 			{"type":"custom"
 				,"source":"package>compatibility>firmware"
@@ -98,13 +87,13 @@
 			}
 		,"#changelogLink" :
             {"type":"custom"
-                ,"source" :"package>screenshots>screenshot"
+                ,"source" :"package>changelog>change"
                 ,"render":function(element, source){
                     $("#changelogLink").remove();
                     if ($(source).size() == 0) {
                         return
                     }
-                    // create screenshots link
+                    // create changelog link
                     $("#changesList").append(
                         $("<a class='link-item list-group-item'>")
                             .attr("href","changelog.html?p="+bundleid)
@@ -164,8 +153,6 @@
     }); // ready
   </script>
 </head>
-
-
 <body>
 <br />
 
@@ -174,7 +161,7 @@
 	<div id="packageHeader" class="container" style="display:none">
 		<div class="jumbotron">
 			<h1 id="packageName"></h1>
-			<p>by TwoPlay</p>
+			<p id="packageShortDesc">brought to you by Reposi3</p>
 		</div>
 	</div>
 
@@ -211,7 +198,7 @@
 <div id="packageError" style="display:none">
 	<div class="container">
 	  <div class="alert alert-danger">
-		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository.
+		<strong>Oh snap!</strong> The package you are trying to view is not hosted on this repository.
 	  </div>
 	</div>
 </div>
