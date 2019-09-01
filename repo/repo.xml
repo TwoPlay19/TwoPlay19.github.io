@@ -1,4 +1,11 @@
 <repo>
+
+	<link>
+		<name>Support me on PayPal</name>
+		<url>https://paypal.me/pools/c/827db7ZVK7</url>
+		<iconclass>fa fa-paypal</iconclass>
+	</link>
+
 	<footerlinks>
 		<link>
 			<name>Follow me on Twitter</name>
