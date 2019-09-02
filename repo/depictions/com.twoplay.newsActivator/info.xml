@@ -1,10 +1,10 @@
 <package>
 	<id>com.twoplay.newsActivator</id>
 	<name>NewsActivator</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>9.0</miniOS>
+			<miniOS>11.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -17,7 +17,7 @@
 	</descriptionlist>
 
 	<changelog>
-		<change>Release</change>
+		<change>Bug fix</change>
 	</changelog>
 	<links>
 		<link>
