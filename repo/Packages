@@ -1,0 +1,13 @@
+Package: com.twoplay.newsActivator
+Version: 1.1-b
+Section: Tweaks
+Maintainer: TwoPlay <TwoPlay19@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.twoplay.newsActivator_1.1-b_iphoneos-arm64.deb
+Size: 1196
+MD5sum: 679d9585909e75146afb8cf2d835c096
+Description: Activate Apple News in all countries
+Name: NewsActivator
+Author: TwoPlay <TwoPlay19@gmail.com>
+Depiction: https://twoplay19.github.io/repo/depictions/?p=com.twoplay.newsActivator
